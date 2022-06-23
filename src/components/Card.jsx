@@ -1,11 +1,13 @@
-function Card() {
+function Card(props) {
     return (
-        <div>
-            <h1>Img</h1>
-            <h1>Location</h1>
-            <h1>Name</h1>
-            <h1>Dates</h1>
-            <h1>Description</h1>
+        <div className="card">
+            <img className="card-img"
+            src={`../resources/images/${props.photoImg}`} 
+            />
+            <h1 className="card-location">{props.location}</h1>
+            <h1 clasName="card-name">{props.name}</h1>
+            <h1 className="card-date">{props.dates}</h1>
+            <h1 className="card-description">{props.description}</h1>
         </div>
     )
 }

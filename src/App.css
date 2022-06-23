@@ -12,3 +12,22 @@
     font-size: 22px;
     font-weight: normal;
 }
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+        
+.card-img { grid-area: 1 / 1 / 6 / 2; }
+.card-location { grid-area: 1 / 2 / 2 / 6; }
+.card-name { grid-area: 2 / 2 / 3 / 6; }
+.card-date { grid-area: 3 / 2 / 4 / 6; }
+.card-description { grid-area: 4 / 2 / 6 / 6; }
+
+.card-holder {
+    width: 80%;
+    margin: auto;
+}
