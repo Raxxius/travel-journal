@@ -9,7 +9,7 @@ export default [
     },
     {
         id: 2,
-        photoImg: 'Kirkjufell.jpg',
+        photoImg: 'Iceland.jpg',
         location: 'location',
         name: 'Iceland',
         date: '13th June 2022 - 20th June 2022',
