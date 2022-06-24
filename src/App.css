@@ -44,13 +44,13 @@ body {
     width: 35vw;
     max-width: 245px;
     overflow: hidden;
-    padding: 15px;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 25px;
 }
 
 .card-location { 
-    padding-left: 15px;
-    height: 10vh;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -64,22 +64,28 @@ body {
 .google-link {
     color: darkgray;
     text-decoration: underline;
-    padding-left: 50px;
-    font-size: 1vw;
+    padding-left: 5px;
+    padding-top: 12px;
+    font-size: 10px;
+}
+
+.google-link:hover {
+    color: black;
 }
 
 .card-location h2 {
     font-weight: 100;
-    font-size: 1.2vw;
+    font-size: 15px;
     text-transform: uppercase;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 .card-name { 
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 1.5vw;
+    font-size: 14px;
 }
 
 .card-name h1 {
@@ -87,20 +93,21 @@ body {
 }
 
 .card-date { 
-    padding-left: 15px;
-    font-size: 1.2vw;
+    padding-left: 5px;
+    font-size: 12px;
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 15px;
 }
 
 .card-description { 
-    padding-left: 15px;
-    font-size: 1.6vw;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-size: 12px;
 }
 
 .card-holder {
-    width: 80%;
     margin: auto;
 }
 
