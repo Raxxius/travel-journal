@@ -14,9 +14,9 @@ function Card(props) {
                     <div className='card-location-span'>
                         <Pin />
                         <h2>{props.location}</h2>
-                        <a className='google-link'>View on Google Maps</a>
-                        </div>
+                        <a className='google-link' href={props.googlemap} target="blank">View on Google Maps</a>
                     </div>
+                </div>
                 <div className="card-name"><h1>{props.name}</h1></div>
                 <div className="card-date"><h3>{props.date}</h3></div>
                 <div className="card-description"><p>{props.description}</p></div>

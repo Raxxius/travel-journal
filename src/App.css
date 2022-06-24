@@ -39,8 +39,10 @@ body {
 }
         
 .card-img { 
-    height: 50vh;
-    width: 35vh;
+    height: 50vw;
+    max-height: 350px;
+    width: 35vw;
+    max-width: 245px;
     overflow: hidden;
     padding: 15px;
     border-radius: 25px;
@@ -76,7 +78,7 @@ body {
 .card-name { 
     padding-left: 15px;
     padding-top: 15px;
-    height: 10vh;
+    padding-bottom: 5px;
     font-size: 1.5vw;
 }
 
@@ -86,15 +88,14 @@ body {
 
 .card-date { 
     padding-left: 15px;
-    height: 5vh;
     font-size: 1.2vw;
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 15px;
 }
+
 .card-description { 
     padding-left: 15px;
-    height: 25vh;
     font-size: 1.6vw;
 }
 
