@@ -12,7 +12,7 @@ function Card(props) {
                 <div className="card-content-box">
                 <div className="card-location">
                     <div className='card-location-span'>
-                        <a className='google-link' href={props.googlemap} target="blank"><Pin /></a>
+                        <a className='google-link-icon' href={props.googlemap} target="blank"><Pin /></a>
                         <h2>{props.location}</h2>
                         <a className='google-link' href={props.googlemap} target="blank">View on Google Maps</a>
                     </div>
