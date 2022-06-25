@@ -6,7 +6,7 @@ function Card(props) {
             <div className="card">
                 <div className="card-img-box">
                 <img className="card-img" alt="location"
-                src={`../resources/images/${props.photoImg}`} 
+                src={`https://raxxius.github.io/travel-journal/resources/images/${props.photoImg}`} 
                 />
                 </div>
                 <div className="card-content-box">
