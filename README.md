@@ -30,6 +30,7 @@ The basic setup of the site design is to have a simple header component, and the
 ### Header
 
 ![Header](public/docs/header.png)
+
 *The header is a simple design*
 
 The header component is a simple design with a globe SVG and a centered text. Colour was taken from the required sample image.
@@ -37,11 +38,13 @@ The header component is a simple design with a globe SVG and a centered text. Co
 ### Location card
 
 ![Card](public/docs/card.png)
+
 *The card component of the website*
 
-The card component of the website 
+The card component of the website comprises two flex containers, one for the image, and one for the text.
 
-`            <div className="card">
+```
+            <div className="card">
                 <div className="card-img-box">
                 <img className="card-img" alt="location"
                 src={`https://raxxius.github.io/travel-journal/resources/images/${props.photoImg}`} 
@@ -61,4 +64,7 @@ The card component of the website
                 </div>
             </div>
             <hr class="solid"></hr>
-        </>`
+        </>
+```
+
+
