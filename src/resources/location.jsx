@@ -1,4 +1,4 @@
-export default [
+const location = [
     {
         id: 1,
         photoImg: 'Jersey.jpg',
@@ -28,3 +28,5 @@ export default [
 
     }
 ]
+
+export default location
