@@ -5,7 +5,7 @@ function Card(props) {
         <>
             <div className="card">
                 <div className="card-img-box">
-                <img className="card-img"
+                <img className="card-img" alt="location"
                 src={`../resources/images/${props.photoImg}`} 
                 />
                 </div>
