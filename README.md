@@ -100,3 +100,12 @@ Website is launched on Github pages
 Scrimba provided the base image to support the design of the project
 
 Scrimba provided the 'Learn React for free course, that this a component of'
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://www.w3schools.com/
+
+images provided by Gemma Brewin, all rights reserved
+
+SVG icons obtained from https://www.svgrepo.com/
+
