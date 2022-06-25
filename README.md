@@ -84,3 +84,19 @@ This card reads from a JSX file named 'location.jsx' that returns an array of ob
 For this website at the moment, 3 trips have been inputed.
 
 ## Performance metrics 
+
+![Lighthouse](public/docs//lighthouse.png)
+
+Lighthouse performance metrics are generally strong for the webpage.
+
+## Website launch
+
+Website is launched on Github pages
+
+![Github](public/docs/github.png)
+
+# Credits
+
+Scrimba provided the base image to support the design of the project
+
+Scrimba provided the 'Learn React for free course, that this a component of'
