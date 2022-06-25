@@ -47,7 +47,7 @@ The card component of the website comprises two flex containers, one for the ima
             <div className="card">
                 <div className="card-img-box">
                 <img className="card-img" alt="location"
-                src={`https://raxxius.github.io/travel-journal/resources/images/${props.photoImg}`} 
+                src={`../resources/images/${props.photoImg}`} 
                 />
                 </div>
                 <div className="card-content-box">
@@ -67,4 +67,20 @@ The card component of the website comprises two flex containers, one for the ima
         </>
 ```
 
+This card reads from a JSX file named 'location.jsx' that returns an array of objectives with the following properties:
 
+```
+    { 
+        id: {ID number of the object}
+        photoImg: {reference to the locaiton of the image}
+        location: {the location, also used as the alt to the image}
+        googlemap: {link to the googlemap geolocation}
+        name: {main title name}
+        date: {date of the trip}
+        description: {short description of the location}
+    },
+```
+
+For this website at the moment, 3 trips have been inputed.
+
+## Performance metrics 
