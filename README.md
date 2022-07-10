@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project was completed as part of the [Scrimba](https://scrimba.com) learn React course.
 
-![Srimba logo](public/docs/dark-logo.svg)
+![Scrimba logo](public/docs/dark-logo.svg)
 
 ## Site overview
 
